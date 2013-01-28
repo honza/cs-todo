@@ -5,6 +5,8 @@ A ClojureScript todo app that runs in the browser.  A test project.
 
 All of the relevant code is in `cs-todo/src-cljs/todo/core.cljs`.
 
+**Demo** is [here](http://honza.ca/cs-todo/index.html).
+
 Usage
 -----
 
