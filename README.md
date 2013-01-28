@@ -1,13 +1,18 @@
-# todo
+todo
+====
 
-A Clojure library designed to ... well, that part is up to you.
+A ClojureScript todo app that runs in the browser.  A test project.
 
-## Usage
+Usage
+-----
 
-FIXME
+    $ lein deps
+    $ lein cljsbuild once
+    $ open resources/public/index.html
 
-## License
+License
+-------
 
-Copyright © 2013 FIXME
+BSD, short and sweet
 
-Distributed under the Eclipse Public License, the same as Clojure.
+Copyright © 2013 Honza Pokorny
