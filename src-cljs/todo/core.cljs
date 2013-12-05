@@ -7,12 +7,14 @@
 (defn log [message]
   (.log js/console message))
 
+(declare change-handler)
+  
 ;; Todo manipulation ----------------------------------------------------------
 
 (defn get-id []
   (let [new-id (inc @task-id)]
     (reset! task-id new-id)
-    (keyword new-id)))
+    new-id))
 
 (defn add-todo [todo]
   (let [id (get-id)
