@@ -2,9 +2,10 @@
   :description "Todo app"
   :url "https://github.com/honza/cs-todo"
   :license {:name "BSD"}
-  :dependencies [[org.clojure/clojure "1.4.0"]
-                 [prismatic/dommy "0.0.1"]]
-  :plugins [[lein-cljsbuild "0.3.0"]]
+  :dependencies [[org.clojure/clojure "1.5.1"]
+                 [org.clojure/clojurescript "0.0-2080"]
+                 [prismatic/dommy "0.1.1"]]
+  :plugins [[lein-cljsbuild "1.0.1-SNAPSHOT"]]
   :cljsbuild {
     :builds [{
       :source-paths ["src-cljs"]
